@@ -32,11 +32,7 @@ function FlowerDetails() {
     <>
       <div className="show">
         <img src={flower.url} alt={flower.name} />
-        <p className="label">
-          <span className="bold">Favorit:</span>{" "}
-          {flower.is_favorite ? <span>⭐</span> : <span>✩</span>}
-        </p>
-
+    
         <p className="label">
           <span className="bold">Flower:</span> {flower.name}
         </p>
@@ -46,9 +42,13 @@ function FlowerDetails() {
         <p className="label">
           <span className="bold">County:</span> {flower.country}
         </p>
+        <p className="label">
+          <span className="bold">Favorit:</span>{" "}
+          {flower.is_favorite ? <span>⭐</span> : <span>✩</span>}
+        </p>
 
         <div className="showNavigation">
-          
+
           {/* <div>
             {" "}
             <Link to={`/flowers`}>
