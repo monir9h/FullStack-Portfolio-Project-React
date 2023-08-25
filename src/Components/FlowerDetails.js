@@ -37,7 +37,7 @@ function FlowerDetails() {
           <span className="bold">Flower:</span> {flower.name}
         </p>
         <p className="label">
-          <span className="bold">Price:</span> {flower.price}
+          <span className="bold">Price:$</span> {flower.price}
         </p>
         <p className="label">
           <span className="bold">County:</span> {flower.country}
@@ -58,14 +58,14 @@ function FlowerDetails() {
 
           <div>
             <Link to={`/flowers/${id}/edit`}>
-              <button>Edit</button>
+              <button className="button">Edit</button>
             </Link>
           </div>
           <div>
-            <button onClick={handleDelete}>Delete</button>
+            <button className="button" onClick={handleDelete}>Delete</button>
           </div>
           <Link to={`/flowers`}>
-        <button>Nevermind</button>
+        <button className="button">Nevermind</button>
       </Link>
         </div>
       </div>

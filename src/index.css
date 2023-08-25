@@ -72,10 +72,11 @@ button a {
   padding: 10px;
   margin: 20px auto;
   width: 300px;
+  font-family: 'Eagle Lake', cursive;
 
 }
 
-img {
+.image {
   width: 300px;
   height: 200px; 
   object-fit: cover;
@@ -94,6 +95,8 @@ img {
 
 .show {
   text-align: center;
+  font-family: 'Eagle Lake', cursive;
+
 }
 
 .show img {
@@ -136,4 +139,8 @@ input[type="checkbox"] {
 
 input[type="submit"] {
   width: 30%;
+}
+
+.button{
+  font-family: monospace;
 }

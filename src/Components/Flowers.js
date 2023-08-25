@@ -23,7 +23,7 @@ export default function Flowers(){
     return (
         <div className="flowers">
             {flowers.map((flower) => {
-                return <Flower key={flower.id} flower={flower}/>
+                return <Flower key={flower.id} flower={flower} />
             })}
         </div>
     )

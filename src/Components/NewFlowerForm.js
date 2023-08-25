@@ -44,7 +44,7 @@ export default function NewFlowerForm() {
       <form onSubmit={handleSubmit}>
         <label htmlFor="Flower">Flower:</label>
         <input
-          id="flower"
+          id="name"
           value={flower.name}
           type="text"
           onChange={handleTextChange}
@@ -74,7 +74,7 @@ export default function NewFlowerForm() {
           id="url"
           type="text"
           pattern="http[s]*://.+"
-          // required
+          required
           value={flower.url}
           placeholder="http://"
           onChange={handleTextChange}
