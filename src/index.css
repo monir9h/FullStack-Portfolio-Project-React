@@ -5,9 +5,135 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding-top: 80px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+nav {
+  background-color: rgb(149, 177, 207);
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  box-shadow: 2px 2px 4px grey;
+  height: 80px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+nav h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  color: #333;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+button a {
+  color: black;
+  padding: 20px;
+  font-size: large;
+}
+
+.flowers {
+  /* padding-top: 90px; */
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid green;
+}
+
+.flower {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px auto;
+  width: 300px;
+
+}
+
+img {
+  width: 300px;
+  height: 200px; 
+  object-fit: cover;
+
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.home {
+  /* padding-top: 300px; */
+  text-align: center;
+  font-family: 'Pacifico';
+}
+
+.show {
+  text-align: center;
+}
+
+.show img {
+  /* padding-top: 50px; */
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+
+}
+
+.showNavigation {
+  display: flex;
+  justify-content: center;
+}
+
+.showNavigation button {
+  margin: 0px 50px;
+  padding: 0px 30px;
+  
+}
+
+
+
+.New form {
+  margin: auto;
+  width: 95%;
+}
+
+input[type],
+textarea {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+input[type="checkbox"] {
+  margin: 0;
+  width: 15%;
+}
+
+input[type="submit"] {
+  width: 30%;
 }
