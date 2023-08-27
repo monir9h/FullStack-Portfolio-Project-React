@@ -15,8 +15,8 @@ code {
 
 
 nav {
-  background-color: rgb(149, 177, 207);
-
+  /* background-color: rgb(149, 177, 207); */
+  background-color: #415965;
   background-attachment: fixed;
   background-size: cover;
   background-attachment: fixed;
@@ -34,6 +34,11 @@ nav {
   right: 0;
   z-index: 1000;
 }
+
+.logo{
+  color: aliceblue;
+}
+
 
 nav h1 {
   font-family: 'Courier New', Courier, monospace;
